@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetailsActivity"
+    android:background="#FF424242"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/newsLinearLayout"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/newsImage"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_launcher_background"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsHeading"
+            android:textColor="#C0C0C0"
+            android:text="Very Interesting News"
+            android:textSize="22sp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsDate"
+            android:textColor="#C0C0C0"
+            android:text="02/10/2023"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_marginHorizontal="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsText"
+            android:textColor="#C0C0C0"
+            android:text="there will be news details somafsjdknhgısodf"
+            android:textSize="18sp"
+            android:layout_margin="5dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

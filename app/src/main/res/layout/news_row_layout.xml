@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:elevation="6dp"
+    app:cardCornerRadius="6dp"
+    android:id="@+id/row_layout"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/cardview_dark_background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="25dp"
+            android:id="@+id/newsImg"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/newsDate"
+            android:textSize="15sp"
+            android:layout_weight="3.5"
+            android:textColor="#C0C0C0"
+            android:text="10-10-2023">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Some news' Heading will be there!"
+            android:textStyle="bold"
+            android:textColor="#C0C0C0"
+            android:textSize="22sp"
+            android:id="@+id/newsHeading">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

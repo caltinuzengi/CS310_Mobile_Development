@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:elevation="6dp"
+    app:cardCornerRadius="6dp"
+    android:id="@+id/comment_row_layout"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/cardview_dark_background">
+
+        <ImageView
+            android:id="@+id/newsImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:icon="@drawable/contacts_fill0_wght400_grad0_opsz48"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/contacts_fill0_wght400_grad0_opsz48">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/userName"
+                android:textSize="18sp"
+                android:layout_weight="2"
+                android:textColor="#C0C0C0"
+                android:text="User user">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Some news' Heading will be there!"
+                android:textColor="#C0C0C0"
+                android:textSize="16sp"
+                android:id="@+id/commentText">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
